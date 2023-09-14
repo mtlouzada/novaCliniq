@@ -1,3 +1,3 @@
 Website responsivo para uma clínica médica.
 
-Deploy:
+Deploy: https://louzadarj.github.io/clinica/
