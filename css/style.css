@@ -34,12 +34,28 @@ nav a {
 }
 
 .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url('../assets/recepcao.png');
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
+}
+
+.titulo {
+    width: 100%;
+    display: flex;
+    max-width: 1024px;
 }
 
 h1 {
     color: #fff;
-    font-size: 35px
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+span {
+    color: #fff;
+    display: block;
 }
