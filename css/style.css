@@ -33,6 +33,10 @@ nav a {
     font-size: 20px;
 }
 
+a:hover {
+    color: #0000008c;
+}
+
 .banner {
     display: flex;
     align-items: center;
