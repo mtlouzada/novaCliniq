@@ -32,3 +32,14 @@ nav a {
     margin-left: 10px;
     font-size: 20px;
 }
+
+.banner {
+    background-image: url('../assets/recepcao.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    color: #fff;
+    font-size: 35px
+}
