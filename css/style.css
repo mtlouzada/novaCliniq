@@ -37,10 +37,11 @@ a:hover {
     color: #0000008c;
 }
 
+
+
+
+
 .banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-image: url('../assets/recepcao.png');
     background-size: cover;
     height: 80vh;
@@ -63,3 +64,15 @@ span {
     color: #fff;
     display: block;
 }
+
+
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
