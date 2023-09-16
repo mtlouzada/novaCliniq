@@ -75,4 +75,15 @@ span {
     justify-content: center;
 }
 
+.sobre {
+    max-width: 600px;
+    text-align: center;
+    margin-top: 20px;
+}
 
+.sobre h2 {
+    padding: 20px 0;
+    
+}
+
+.lista {}
