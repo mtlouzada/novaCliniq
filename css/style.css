@@ -86,4 +86,18 @@ span {
     
 }
 
-.lista {}
+.lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    padding: 20px 0;
+}
+
+.lista img {
+    width: 33%;
+}
+
+.lista p {
+    padding: 20px 0;
+}
