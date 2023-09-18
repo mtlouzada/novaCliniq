@@ -101,3 +101,33 @@ span {
 .lista p {
     padding: 20px 0;
 }
+
+.galeria {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1024px;
+    padding: 20px 0;
+}
+
+.galeria img {
+    width: 300px;
+}
+
+.galeria p {
+    
+}
+
+.container-button {
+    padding: 20px 0;
+}
+
+.button {
+    background-color: #00cad1;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
