@@ -111,13 +111,12 @@ span {
     padding: 20px 0;
 }
 
-.galeria img {
+.imagem {
     width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 0 #000;
 }
 
-.galeria p {
-    
-}
 
 .container-button {
     padding: 20px 0;
