@@ -76,9 +76,14 @@ span {
 }
 
 .sobre {
-    max-width: 600px;
+    width: 100%;
     text-align: center;
     margin-top: 20px;
+}
+
+.sobre span {
+    display: block;
+    color: #0000008c;
 }
 
 .sobre h2 {
@@ -106,17 +111,27 @@ span {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 2.5rem;
     width: 100%;
     max-width: 1024px;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 .img {
     width: 300px;
-    border-radius: 5px;
-    box-shadow: 0 0 8px 0 #000;
+    border-radius: 2px;
 }
 
+.card {
+    border-radius: 2px;
+    box-shadow: 0 0 8px 0 #000;
+    text-align: center;
+}
+
+.card p {
+    padding: 10px 0;
+    text-transform: uppercase;
+}
 
 .container-button {
     padding: 20px 0;
