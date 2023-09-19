@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     border: 0;
     box-sizing: border-box;
@@ -88,7 +88,7 @@ span {
 
 .sobre h2 {
     padding: 20px 0;
-    
+
 }
 
 .lista {
@@ -151,9 +151,14 @@ span {
 
 
 .contato {
-   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
     text-align: center;
-    
+    max-width: 1024px;
+    width: 100%;
 }
 
 .contato span {
