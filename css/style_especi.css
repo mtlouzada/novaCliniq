@@ -36,12 +36,28 @@ a:hover {
     color: #0000008c;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
+
+.menu-secundario {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
 
 .link-especi {
     color: #000;
+    padding: 10px 5px;
+    border-bottom: solid #00cad1;
 }
 
 
