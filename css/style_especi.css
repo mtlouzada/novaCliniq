@@ -76,8 +76,9 @@ a:hover {
 .conteudo {
     text-align: center;
     padding: 20px 0;
-    max-width: 500px;
+    max-width: 1024px;
 }
+
 
 
 
@@ -86,9 +87,29 @@ img {
     width: 300px;
 }
 
-.tabela {
+.container-tabela {
     display: flex;
+    width: 100%;
+    max-width: 1024px;
+    
 }
+
+thead {
+    background-color: #00cad1;
+}
+
+.tabela {
+    border-spacing: 0;
+    text-align: left;
+    max-width: 1024px;
+    width: 100%;
+}
+
+
+
+
+
+
 
 
 footer {
