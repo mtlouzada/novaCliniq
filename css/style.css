@@ -195,5 +195,16 @@ footer a {
 @media (max-width: 425px) {
     nav a {
         font-size: 12px;
+        flex-wrap: wrap;
+        width: 100%;
     }
+
+    .banner {
+        max-width: 425px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+    
 }
