@@ -60,7 +60,9 @@ a:hover {
     border-bottom: solid #00cad1;
 }
 
-
+.link-especi:hover {
+    color: #0d6e71;
+}
 
 
 
@@ -90,7 +92,7 @@ tbody tr:nth-of-type(even) {
 
 
 .container-tabela img {
-    width: 200px;
+    width: 250px;
     height: 240px;
     object-fit: cover;
 }
@@ -98,7 +100,6 @@ tbody tr:nth-of-type(even) {
 .container-tabela {
     display: flex;
     width: 100%;
-    max-width: 1024px;
     padding: 20px 0;
     
 }
