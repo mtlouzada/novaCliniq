@@ -201,12 +201,15 @@ footer a {
 
     .banner {
         max-width: 425px;
+        background-image: url('../assets/recepcao.png');
+        background-size: cover;
+        height: 20vh;
     }
 
     h1 {
-        font-size: 16px;
+        font-size: 24px;
     }
-    
+
     .menu {
         max-width: 200px;
         flex-direction: column;
@@ -215,8 +218,8 @@ footer a {
     .galeria {
         flex-wrap: wrap;
     }
-    
+
     iframe {
-        max-width: 425px;
+        max-width: 423px;
     }
 }
