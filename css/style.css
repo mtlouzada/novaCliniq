@@ -192,7 +192,12 @@ footer a {
 
 
 
-@media (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 425px) {
+    nav {
+        padding: 10px 20px;
+        border-top: 1px solid grey;
+    }
+
     nav a {
         font-size: 12px;
         flex-wrap: wrap;
@@ -203,7 +208,7 @@ footer a {
         max-width: 425px;
         background-image: url('../assets/recepcao.png');
         background-size: cover;
-        height: 20vh;
+        height: 30vh;
     }
 
     h1 {
@@ -211,12 +216,18 @@ footer a {
     }
 
     .menu {
-        max-width: 100%;
         flex-direction: column;
+    }
+
+    .lista img {
+        display: none;
     }
 
     .galeria {
         flex-wrap: wrap;
+        max-width: 425px;
+        display: flex;
+        flex-direction: column;
     }
 
     iframe {
@@ -224,10 +235,25 @@ footer a {
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
+    nav a {
+        font-size: 12px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
     
+    .banner {
+        max-width: 768px;
+        background-image: url('../assets/recepcao.png');
+        background-size: cover;
+        height: 40vh;
+    }
+
+    .lista img {
+        display: none;
+    }
 }
 
-@media (max-width: 1024px){
+@media (min-width: 769px) and (max-width: 1024px){
 
 }
