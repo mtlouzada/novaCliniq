@@ -231,7 +231,16 @@ footer a {
     }
 
     iframe {
-        max-width: 423px;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        max-width: 425px;
+        padding: 10px;
+        margin: 0;
     }
 }
 
