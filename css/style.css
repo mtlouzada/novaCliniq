@@ -32,6 +32,7 @@ header {
 
 .menu img {
     width: 150px;
+    margin-left: 10px;
 }
 
 nav a {
@@ -39,6 +40,9 @@ nav a {
     color: #fff;
     margin-left: 20px;
     font-size: 20px;
+    flex-wrap: wrap;
+    margin-right: 10px;
+
 }
 
 a:hover {
@@ -66,6 +70,7 @@ h1 {
     font-size: 38px;
     font-weight: 400;
     text-transform: uppercase;
+    margin-left: 10px;
 }
 
 .linha2 {
@@ -84,9 +89,8 @@ h1 {
 }
 
 .sobre {
-    width: 100%;
     text-align: center;
-    margin-top: 20px;
+    margin: 10px 5px;
 }
 
 .descer {
@@ -122,8 +126,9 @@ h1 {
 .galeria {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 2.5rem;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
     width: 100%;
     max-width: 1024px;
     padding: 30px 0;
@@ -221,8 +226,6 @@ footer a {
 
     nav a {
         font-size: 12px;
-        flex-wrap: wrap;
-        width: 100%;
     }
 
 /*--------------------------*\
@@ -231,8 +234,6 @@ footer a {
 
     .banner {
         max-width: 425px;
-        background-image: url('../assets/recepcao.png');
-        background-size: cover;
         height: 30vh;
     }
 
@@ -248,19 +249,6 @@ footer a {
         display: none;
     }
 
-    .galeria {
-        flex-wrap: wrap;
-        max-width: 425px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    iframe {
-        flex-wrap: wrap;
-        width: auto;
-        height: auto;
-    }
-
     .container {
         flex-wrap: wrap;
         max-width: 425px;
@@ -270,33 +258,38 @@ footer a {
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
-    nav a {
-        font-size: 12px;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    
+
+/*--------------------------*\
+|          menu resp         |
+\*--------------------------*/
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    padding: 10px 20px;
+    border-top: 1px solid grey;
+}
+
+nav a {
+    font-size: 12px;
+}
+
+/*--------------------------*\
+|        banner resp         |
+\*--------------------------*/
     .banner {
         max-width: 768px;
-        background-image: url('../assets/recepcao.png');
-        background-size: cover;
         height: 40vh;
+    }
+
+    h1 {
+        font-size: 24px;
     }
 
     .lista img {
         display: none;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px){
-nav {
-        padding: 10px 20px;
-        border-top: 1px solid grey;
-    }
-
-    nav a {
-        font-size: 12px;
-        flex-wrap: wrap;
-        width: 100%;
     }
 }
