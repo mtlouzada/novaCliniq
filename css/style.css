@@ -37,7 +37,7 @@ header {
 nav a {
     text-decoration: none;
     color: #fff;
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 20px;
 }
 
@@ -209,6 +209,11 @@ footer a {
 \*--------------------------*/
 
 @media (min-width: 320px) and (max-width: 425px) {
+
+/*--------------------------*\
+|          menu resp         |
+\*--------------------------*/
+
     nav {
         padding: 10px 20px;
         border-top: 1px solid grey;
@@ -219,6 +224,10 @@ footer a {
         flex-wrap: wrap;
         width: 100%;
     }
+
+/*--------------------------*\
+|        banner resp         |
+\*--------------------------*/
 
     .banner {
         max-width: 425px;
@@ -280,5 +289,14 @@ footer a {
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
+nav {
+        padding: 10px 20px;
+        border-top: 1px solid grey;
+    }
 
+    nav a {
+        font-size: 12px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
 }
